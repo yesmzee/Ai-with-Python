@@ -33,8 +33,12 @@ colors.pop() # 'pop' removes the last element
 print(colors)
 print(colors.pop()) # this gives back last element'
 print(colors)
-
 # %%
 colors.sort() # 'sort' arranges the elements in a order
 print(colors)
+# %%
+
+#LOOPING THROUGH LIST
+for another_color_list in colors:
+    print(another_color_list)
 # %%
