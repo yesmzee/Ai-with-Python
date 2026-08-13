@@ -31,7 +31,7 @@ print(colors)
 
 colors.pop()  # 'pop' removes the last element
 print(colors)
-print(colors.pop())  # this gives back last element'
+print(colors.pop())  # this gives back last element
 print(colors)
 
 colors.sort()  # 'sort' arranges the elements in a order
@@ -88,7 +88,36 @@ print(zee_set)
 A = {1, 2, 3, 4}
 B = {4, 5, 6}
 
-print(A.union(B)) # combines all element & no duplicates
-print(A.intersection(B)) # only common elements
-print(A.difference(B)) # only elements from set-A (1st-set) not in set-B (2nd-set)
+print(A.union(B))  # combines all element & no duplicates
+print(A.intersection(B))  # only common elements
+print(A.difference(B))  # only elements from set-A (1st-set) not in set-B (2nd-set)
+
+
+# 4.DICTIONARY {}
+# Unordered, Mutable, Key-value pairs
+
+student = {"name": "Zeeshan", "age": 22, "dept.": "AI"}
+print(student)
+
+# ACCESSING VALUES
+
+print(student["name"])
+print(student.get("age"))
+
+# DICTIONARY METHODS
+
+student["age"]=23 # this updates to new value 23
+print(student)
+
+student["city"]="Gigit" # this adds new key & value
+print(student)
+
+student.pop("dept.") # this removes dept.
+print(student)
+
+
+# LOOPING DICTIONARY
+
+for key, value in student.items():
+    print(key,"=", value)
 
