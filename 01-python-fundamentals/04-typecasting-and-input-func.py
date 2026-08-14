@@ -13,11 +13,11 @@ print(total_marks) # 101.55 auto converts
 # 2. Explicit Casting ---> we have to do casting manually 
 
 history = 55.3
-print(int(history)) # shows 55 integer no. 
+print(int(history)) # shows 55 integer type 
 
-geography = "57" # <str>
+geography = "57" # type <str>
 x = float(geography)
-print(type(geography)) # here orignal x is still <str> bcuz it creates a converted value 
+print(type(geography)) # here orignal is still <str> bcuz it creates a converted value & stores it in another variable
 print(type(x))         # here the converted value is in x and now is <float>
 
 #-----------------------------------------------------------
@@ -48,15 +48,15 @@ print(type(x))         # here the converted value is in x and now is <float>
 # Dictionary --> Float
 # {"a": 1} --> float
 
-#-------------------------------------------------
+#-------------------------------------------------------------
 
 # INPUT FUNCTION ---> input()
 # used for taking input from user while program is running
 
 age = input("enter your age : ")
 print(age)
-type(age) # its <str>
+type(age) # type <str>
 
 myAge = int(age) # convert <str> to <int> & stores it in myAge
 print(myAge)
-type(myAge) # now its <int>
+type(myAge) # now type <int>
