@@ -27,4 +27,34 @@ print(4 < 1)  # less than
 print(10 >= 8)  # greater than or equal to
 print(13 <= 12)  # less than or equal to
 
+
+# 3. LOGICAL or BOOLEAN OPERATORS
+
+# AND --> for True result both conditions must be true
+
+print(True and True)  # True
+print(True and False)  # False
+print(False and True)  # False
+print(False and False)  # False
+age = 20
+print(age >= 18 and age <= 30)  # true result
+
+
+# OR --> for True result only one condition must be true
+
+print(True or True)  # True
+print(True or False)  # True
+print(False or True)  # True
+print(False or False)  # False
+age = 16
+print(age < 18 or age > 60)  # true result
+
+
+# NOT --> reverse the boolean value
+
+print(not True)  # false result
+print(not False)  # true result
+is_raining = False
+print(not is_raining)  # true result
+
 # %%
