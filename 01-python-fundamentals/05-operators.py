@@ -58,7 +58,7 @@ print(not False)  # true result
 is_raining = False
 print(not is_raining)  # true result
 
-# %%
+
 # 4. ASSIGNMENT OPERATORS or COMPOUND ASSIGNMENT OPERATORS --> used to assign or modify values to variables
 
 x = 10
@@ -71,4 +71,24 @@ x %= 3  # x = x % 3
 x **= 2  # x = x ** 2
 print(x)  # final value of x
 
-# %%
+
+# 5. BITWISE OPERATORS --> works on the individual bits (0s and 1s) of integer numbers.
+
+#AND (&) --> 1 if both bits are 1 else 0
+# 5 --> 101
+# 3 --> 011
+print(5 & 3)  # bitwise AND
+
+# OR (|) --> 1 if any of the bits is 1 else 0
+# 5 --> 101
+# 3 --> 011
+print(5 | 3)  # bitwise OR
+
+# XOR (^) --> 1 if both bits are different else 0
+# 5 --> 101
+# 3 --> 011
+print(5 ^ 3)  # bitwise XOR
+
+# NOT (~) --> 1's complement of the number (flips the bits)
+# 5 --> 101
+print(~5)  # bitwise NOT
