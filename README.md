@@ -43,7 +43,6 @@ This repository contains my programming exercises, implementations, experiments,
 * Decision Trees — Feature Selection, Tree Depth, Overfitting, Pruning, Scikit-Learn Implementation
 * Random Forest — How It Works, Feature Importance, OOB Error, Hyperparameter Tuning, Scikit-Learn Implementation
 * Support Vector Machines (SVM) — Margin Maximization, Kernel Trick, High-Dimensional Data, Scikit-Learn Implementation
-* **Quiz No. 1 & Hands-on Exercise No. 1**
 
 ### 🔍 Classical ML — k-NN, Naive Bayes & Unsupervised Learning
 
@@ -62,7 +61,6 @@ This repository contains my programming exercises, implementations, experiments,
 * Model Evaluation Metrics, Validation & Cross-Validation
 * Neural Network Simulation
 * Implementation with TensorFlow/Keras
-* **Quiz No. 2 & Hands-on Exercise No. 2**
 
 ### 🧠 Deep Learning — CNN, RNN, LSTM & Computer Vision
 
@@ -70,7 +68,6 @@ This repository contains my programming exercises, implementations, experiments,
 * Recurrent Neural Networks (RNN) — Building a Basic RNN
 * Long Short-Term Memory (LSTM) — Building an LSTM with TensorFlow/Keras
 * Computer Vision — Mathematical Foundations, Edge Detection & Filtering, Morphological Operations (Erosion & Dilation), Image Segmentation Fundamentals, Image Processing with OpenCV
-* **Quiz No. 3 & Hands-on Exercise No. 3**
 
 ### 👁️ Object Detection & Generative AI Introduction
 
@@ -89,7 +86,6 @@ This repository contains my programming exercises, implementations, experiments,
 * Memory & Context Management
 * Agents & Tool Integration
 * Fine-Tuning & Practical Implementation
-* **Quiz No. 4**
 
 ### 📚 Retrieval-Augmented Generation (RAG)
 
@@ -98,7 +94,6 @@ This repository contains my programming exercises, implementations, experiments,
 * Vector Databases & Similarity Search
 * Document Loading & Data Ingestion
 * Building a RAG Pipeline
-* **Hands-on Exercise No. 4**
 
 ### 🚀 Deployment & Capstone Project
 
