@@ -1,6 +1,6 @@
 # AI with Python — Learning Journey
 
-A structured repository documenting my journey through **Python, Data Science, Machine Learning, Deep Learning, Computer Vision, NLP, Generative AI, and Artificial Intelligence**.
+A structured repository documenting my journey through **Python, Data Science, Machine Learning, Deep Learning, Computer Vision, LangChain, Retrieval-Augmented Generation (RAG), and Generative AI**.
 
 This repository contains my programming exercises, implementations, experiments, notes, and projects as I progress through my **AI with Python** course.
 
@@ -10,141 +10,125 @@ This repository contains my programming exercises, implementations, experiments,
 
 ### 🐍 Python Programming Fundamentals
 
-* Variables and Data Types
-* Operators
+* Variables & Naming Conventions
+* Data Types — Numbers, Strings & Booleans
+* Data Structures — Lists, Tuples, Sets & Dictionaries
+* Type Conversion & Casting
+* Operators — Arithmetic, Comparison, Logical & Assignment
 * Conditional Statements
-* Loops and Control Flow
-* Functions
-* Modules and Packages
-* Object-Oriented Programming (OOP)
-* File Handling
-* Error Handling and Exceptions
+* Loops — For, While & Nested Loops
+* Looping Over Data Structures
+* Functions — Parameters, Return Values, Scope & Lambda
+* Modules
+* Object-Oriented Programming — Classes, Objects, Constructors, Encapsulation, Inheritance, Polymorphism, Special Methods
+* File Handling — Reading, Writing & Context Managers
+* Exception Handling — try/except/else/finally, Raising & Custom Exceptions
 
-### 🤖 Artificial Intelligence & Machine Learning Fundamentals
+### 📊 Data Analysis & Visualization
 
-* Fundamental Concepts of Artificial Intelligence
-* AI Terminology
-* Applications of Artificial Intelligence
-* Machine Learning Concepts
-* AI-Based Problem Solving
-* Practical Applications of Machine Learning
+* NumPy — Arrays, Indexing, Slicing, Strides, Random Numbers
+* Pandas — Series, DataFrames, Indexing (loc/iloc), Import/Export (CSV, Excel, JSON)
+* Data Cleaning — Type Conversion, Missing Data, String/Text Cleaning
+* Data Manipulation — Sorting, Ranking, Merging, Joining, apply/map/pipe
+* Exploratory Data Analysis (EDA) — Descriptive Stats, Datetime/Time Series, Outlier Detection, Correlation & Covariance
+* Data Visualization — Matplotlib (line, scatter, bar, histograms, subplots, error bars) & Seaborn (distributions, categorical plots, heatmaps)
+* Feature Engineering — Encoding, Scaling, Transformations, Outlier Handling, Train-Test Split
+* Flask Basics — Routing, Views & Jinja2 Templates
+* Mini Projects — Retail Sales Analysis & Loan Risk Analysis
 
-### 📊 Data Science & Data Preprocessing
+### 📈 Classical ML — Supervised Learning I
 
-* NumPy
-* Pandas
-* Data Cleaning
-* Data Preprocessing
-* Exploratory Data Analysis (EDA)
-* Data Visualization
-* Matplotlib
-* Seaborn
+* Introduction to Machine Learning
+* Linear Regression — Math Intuition, Cost Function, MSE, Gradient Descent, Implementation from Scratch & with Scikit-Learn
+* Decision Trees — Feature Selection, Tree Depth, Overfitting, Pruning, Scikit-Learn Implementation
+* Random Forest — How It Works, Feature Importance, OOB Error, Hyperparameter Tuning, Scikit-Learn Implementation
+* Support Vector Machines (SVM) — Margin Maximization, Kernel Trick, High-Dimensional Data, Scikit-Learn Implementation
+* **Quiz No. 1 & Hands-on Exercise No. 1**
 
-### 📈 Supervised Learning
+### 🔍 Classical ML — k-NN, Naive Bayes & Unsupervised Learning
 
-* Linear Regression
-* Decision Trees
-* Random Forest
-* Support Vector Machines (SVM)
-* k-Nearest Neighbors (k-NN)
-* Naïve Bayes
-* Classification
-* Prediction Tasks
+* k-Nearest Neighbors (k-NN) — Distance Metrics, Optimization, Scikit-Learn Implementation
+* Naïve Bayes — Feature Independence Assumption, Model Types (Gaussian, Multinomial, Bernoulli), Scikit-Learn Implementation
+* k-Means Clustering — Choosing Optimal k, Intra-Cluster Variance & Inertia, Scikit-Learn Implementation
+* Hierarchical Clustering — Agglomerative vs Divisive, Dendrograms, Scikit-Learn Implementation
+* Principal Component Analysis (PCA) — Eigenvectors & Eigenvalues, Dimensionality Reduction, Scikit-Learn Implementation
 
-### 🔍 Unsupervised Learning
+### 🧠 Deep Learning — Artificial Neural Networks
 
-* k-Means Clustering
-* Hierarchical Clustering
-* Principal Component Analysis (PCA)
-* Clustering
-* Pattern Discovery
-* Dimensionality Reduction
+* Introduction to ANN & Feedforward Neural Networks
+* Logistic Activation Function
+* Backpropagation Algorithm
+* Neural Network Training Process, Parameters & Learning Rate
+* Model Evaluation Metrics, Validation & Cross-Validation
+* Neural Network Simulation
+* Implementation with TensorFlow/Keras
+* **Quiz No. 2 & Hands-on Exercise No. 2**
 
-### 🧠 Deep Learning
+### 🧠 Deep Learning — CNN, RNN, LSTM & Computer Vision
 
-* Artificial Neural Networks (ANN)
-* Convolutional Neural Networks (CNN)
-* Recurrent Neural Networks (RNN)
-* Long Short-Term Memory (LSTM)
-* Designing and Training Deep Learning Models
-* Practical Deep Learning Applications
+* Convolutional Neural Networks (CNN) — Training & Building with TensorFlow/Keras
+* Recurrent Neural Networks (RNN) — Building a Basic RNN
+* Long Short-Term Memory (LSTM) — Building an LSTM with TensorFlow/Keras
+* Computer Vision — Mathematical Foundations, Edge Detection & Filtering, Morphological Operations (Erosion & Dilation), Image Segmentation Fundamentals, Image Processing with OpenCV
+* **Quiz No. 3 & Hands-on Exercise No. 3**
 
-### 📐 AI Model Evaluation
+### 👁️ Object Detection & Generative AI Introduction
 
-* Model Performance Evaluation
-* Accuracy
-* Confusion Matrix
-* Error Analysis
-* Selecting Appropriate Evaluation Metrics
+* Object Detection & Segmentation — Advanced Concepts
+* Object Detection — YOLO Algorithm
+* Image Segmentation — U-Net Architecture
+* What is Generative AI?
+* Large Language Models (LLMs) — Architecture & Working
+* Prompt Engineering 101 — Fundamentals & Techniques
 
-### 👁️ Computer Vision
+### 🔗 LangChain
 
-* Mathematical Concepts Behind Computer Vision
-* Computer Vision with Python
-* OpenCV
-* Image Processing
-* Object Detection
-* Image Segmentation
-* YOLO
-* U-Net
+* LangChain Overview
+* Working with Models & Prompts
+* Chains & Pipelines
+* Memory & Context Management
+* Agents & Tool Integration
+* Fine-Tuning & Practical Implementation
+* **Quiz No. 4**
 
-### 💬 NLP & Generative AI
+### 📚 Retrieval-Augmented Generation (RAG)
 
-* Natural Language Processing (NLP)
-* Generative Artificial Intelligence
-* LangChain Core
-* Retrieval-Augmented Generation (RAG)
-* Large Language Models (LLMs)
-* LLM-Based Applications
-* Building an LLM-Based Chatbot with Flask
+* Introduction to RAG
+* Embeddings & Vector Representations
+* Vector Databases & Similarity Search
+* Document Loading & Data Ingestion
+* Building a RAG Pipeline
+* **Hands-on Exercise No. 4**
 
-### ⚖️ AI Ethics & Responsible AI
+### 🚀 Deployment & Capstone Project
 
-* Ethical Considerations in Artificial Intelligence
-* Responsible AI
-* Safe and Responsible Use of AI
-* Real-World AI Considerations
+* LangChain Deployment — Building a Chatbot with Flask
+* LangChain Deployment — Building a RAG Application with Flask
+* LangChain Deployment — Agents & Tool Integration with Flask
+* Capstone Project: AI Knowledge Assistant — Part I & Part II
+* Freelancing — Deploying AI Applications with Flask
+* Next Steps — Deployment with FastAPI, Docker & Cloud
+* Capstone Project — Problem Selection, Data Preparation, Model Training & Evaluation, Model Deployment & Course Wrap-Up
+* Prompt Engineering (Advanced)
 
 ---
 
 ## 📁 Repository Structure
 
 ```text
-01-python-fundamentals/
-02-control-flow/
-03-functions/
-04-modules-and-packages/
-05-oop/
-06-file-handling/
-07-exception-handling/
-
-08-ai-and-ml-fundamentals/
-
-09-numpy/
-10-pandas/
-11-data-preprocessing/
-12-eda/
-13-data-visualization/
-
-14-supervised-learning/
-15-unsupervised-learning/
-16-model-evaluation/
-
-17-deep-learning/
-18-computer-vision/
-19-opencv/
-20-object-detection/
-21-image-segmentation/
-
-22-nlp/
-23-generative-ai/
-24-langchain/
-25-rag/
-26-llm-chatbot/
-
-27-ai-ethics/
-28-projects/
+01-python-fundamentals/          # Core Python: syntax, data structures, OOP, files, exceptions
+02-data-analysis-and-viz/        # NumPy, Pandas, EDA, Matplotlib/Seaborn, feature engineering, Flask intro, mini projects
+03-classical-ml-supervised/      # Linear Regression, Decision Trees, Random Forest, SVM
+04-clustering-knn-bayes-pca/     # k-NN, Naive Bayes, k-Means, Hierarchical Clustering, PCA
+05-neural-networks-ann/          # Artificial Neural Networks (ANN) fundamentals & Keras
+06-deep-learning-cnn-rnn-cv/     # CNN, RNN, LSTM & Computer Vision (OpenCV)
+07-object-detection-and-genai/   # YOLO, U-Net, GenAI & LLM introduction, prompt engineering basics
+08-langchain/                    # LangChain models, chains, memory, agents
+09-rag/                          # Retrieval-Augmented Generation pipeline
+10-deployment-capstone/          # Flask/FastAPI/Docker deployment & Capstone projects
 ```
+
+Each folder contains its own `README.md` mapping course topic numbers to files, so progress can be tracked the same way the course platform tracks completion status.
 
 ---
 
@@ -152,16 +136,17 @@ This repository contains my programming exercises, implementations, experiments,
 
 By completing this course, I aim to:
 
-* Build a strong foundation in **Python programming**.
-* Understand the fundamental concepts and applications of **Artificial Intelligence and Machine Learning**.
-* Perform **data cleaning, preprocessing, analysis, and visualization**.
-* Implement and evaluate **supervised and unsupervised machine learning algorithms**.
-* Understand and build **Deep Learning models** using ANN, CNN, RNN, and LSTM architectures.
-* Develop practical **Computer Vision** applications using Python and OpenCV.
-* Understand and implement **object detection and image segmentation** using YOLO and U-Net.
-* Explore **NLP, Generative AI, LangChain, RAG, and LLM-based applications**.
-* Build an **LLM-based chatbot application using Flask**.
-* Understand **AI ethics and responsible AI practices**.
+* Build a strong foundation in **Python programming** — syntax, data structures, OOP, file handling, and error handling.
+* Understand **Machine Learning fundamentals**, including supervised and unsupervised learning paradigms.
+* Perform **data cleaning, preprocessing, exploratory analysis, and visualization** with NumPy, Pandas, Matplotlib, and Seaborn.
+* Implement and evaluate **classical ML algorithms**: Linear Regression, Decision Trees, Random Forest, SVM, k-NN, Naive Bayes, k-Means, Hierarchical Clustering, and PCA.
+* Understand and build **Deep Learning models** using ANN, CNN, RNN, and LSTM architectures with TensorFlow/Keras.
+* Develop practical **Computer Vision** applications using Python and OpenCV, including object detection (YOLO) and image segmentation (U-Net).
+* Explore **Generative AI and Large Language Models (LLMs)**, including prompt engineering.
+* Build LLM-powered applications with **LangChain** — models, chains, memory, and agents.
+* Implement **Retrieval-Augmented Generation (RAG)** pipelines with embeddings and vector databases.
+* Deploy AI applications using **Flask, FastAPI, and Docker**.
+* Complete a **Capstone Project** applying the full pipeline: problem selection, data preparation, model training/evaluation, and deployment.
 * Gradually move from fundamental concepts to **practical, real-world AI projects**.
 
 ---
@@ -169,45 +154,37 @@ By completing this course, I aim to:
 ## 🛠️ Technologies & Libraries
 
 ### Programming
-
 * Python
 
 ### Data Science
-
 * NumPy
 * Pandas
 
 ### Data Visualization
-
 * Matplotlib
 * Seaborn
 
 ### Machine Learning
-
 * Scikit-learn
 
 ### Deep Learning
-
-* ANN
-* CNN
-* RNN
-* LSTM
+* TensorFlow / Keras (ANN, CNN, RNN, LSTM)
 
 ### Computer Vision
-
 * OpenCV
 * YOLO
 * U-Net
 
-### NLP & Generative AI
-
-* LangChain Core
-* RAG
+### Generative AI & LLMs
+* LangChain
+* RAG (Retrieval-Augmented Generation)
 * Large Language Models (LLMs)
+* Prompt Engineering
 
-### Web & AI Applications
-
+### Web & Deployment
 * Flask
+* FastAPI
+* Docker
 
 More technologies and libraries will be added as my learning progresses.
 
@@ -216,35 +193,28 @@ More technologies and libraries will be added as my learning progresses.
 ## 📈 Learning Progress
 
 * [x] Python Fundamentals
-* [ ] Artificial Intelligence & Machine Learning Fundamentals
-* [ ] NumPy
-* [ ] Pandas
-* [ ] Data Preprocessing & Cleaning
-* [ ] Exploratory Data Analysis
-* [ ] Data Visualization
-* [ ] Supervised Learning
-* [ ] Unsupervised Learning
-* [ ] Model Evaluation
-* [ ] Deep Learning
-* [ ] Computer Vision
-* [ ] OpenCV
-* [ ] Object Detection
-* [ ] Image Segmentation
-* [ ] NLP
-* [ ] Generative AI
-* [ ] LangChain
-* [ ] RAG
-* [ ] LLM-Based Chatbot
-* [ ] AI Ethics
-* [ ] Real-World AI Projects
+* [ ] Data Analysis & Visualization
+* [ ] Classical ML — Supervised Learning I (+ Quiz 1, Exercise 1)
+* [ ] Classical ML — k-NN, Naive Bayes & Unsupervised Learning
+* [ ] Artificial Neural Networks (+ Quiz 2, Exercise 2)
+* [ ] CNN, RNN, LSTM & Computer Vision (+ Quiz 3, Exercise 3)
+* [ ] Object Detection & Generative AI Intro
+* [ ] LangChain (+ Quiz 4)
+* [ ] RAG (+ Exercise 4)
+* [ ] Deployment & Capstone Project
 
 ---
 
 ## 🚀 Projects
 
-Practical projects will be added throughout the learning journey to apply the concepts covered in the course.
+Practical projects will be added throughout the learning journey to apply the concepts covered in the course:
 
-The projects will gradually progress from **small Python exercises → data analysis → machine learning → deep learning → computer vision → Generative AI and LLM applications**.
+* Retail Sales Data Analysis & Visualization
+* Loan Risk Analysis & Feature Engineering
+* Capstone Project — AI Knowledge Assistant
+* Capstone Project — Final Deployment Project
+
+The projects gradually progress from **small Python exercises → data analysis → machine learning → deep learning → computer vision → LangChain/RAG → deployed AI applications**.
 
 ---
 
@@ -254,7 +224,7 @@ My goal is to develop a strong and practical foundation in **Python and Artifici
 
 This repository represents my progression from:
 
-**Python → Data Science → Machine Learning → Deep Learning → Computer Vision → NLP → Generative AI → Real-World AI Applications**
+**Python → Data Analysis → Classical ML → Deep Learning → Computer Vision → LangChain → RAG → Deployed AI Applications**
 
 ---
 
@@ -262,14 +232,6 @@ This repository represents my progression from:
 
 This is primarily a **learning and experimentation repository**.
 
-The code, notebooks, notes, and projects represent my progress throughout the course. Some implementations may be simple or experimental as I learn new concepts.
+The code, notes, and projects represent my progress throughout the course. Some implementations may be simple or experimental as I learn new concepts.
 
 As my understanding improves, I will continue to **refactor, improve, and expand** the repository.
-
----
-
-## ⚖️ Responsible AI
-
-Artificial Intelligence should be developed and used responsibly.
-
-As part of this learning journey, I will also explore the **ethical considerations, limitations, risks, and responsible use of AI** in real-world applications.
