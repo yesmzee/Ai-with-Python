@@ -45,7 +45,7 @@ for r in range(rows):
         row
     )  # --> final matrix = [ [0,0,0,0] , [0,0,0,0] , [0,0,0,0] , [0,0,0,0] ]
 for row in matrix:
-    print(" ".join(map(str, row)))  # --> my pov this removes [] + , and:
+    print(" ".join(map(str, row)))  # --> my pov this removes [] , and:
 
 # provides clean output of 4x4 matrix like :
 
