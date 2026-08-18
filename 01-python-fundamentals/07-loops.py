@@ -3,19 +3,27 @@
 # in python there are only two types :
 # for loop & while loop
 
-# for loop
+# FOR LOOP
+# %%
+for i in range(5):  # stop at 5 (5 not included)
+    print(i)  # prints 0 1 2 3 4
 
-for i in range(5):  # prints numbers 0 1 2 3 4
-    print(i)
+for i in range(1, 5):  # start at 1 & stop at 5
+    print(i)  # prints 1 2 3 4
 
-for i in range(6):  # prints the message 6 times
-    print("zeeshan is learning python")
-    print("python is boring compared to cpp")
+for i in range(2, 15, 2):  # start at 1 , stop at 15 , move steps by 2
+    print(i)  # prints 2 4 6 8 10 12 14
+
 
 # another way to use for loop
 
 for z in range(4):
     print("this is line", z)
+
+for i in range(6):  # prints the message 6 times
+    print("zeeshan is learning python")
+    print("python is boring compared to cpp")
+
 
 # character by character printing :
 
@@ -67,3 +75,10 @@ for level in range(1, rows + 1):  # -----> this is for from where start & stop t
 # in python character, string literal ' ' , strings can be multiplied with a integer number (only)
 
 # so the code prints the spaces and stars one by one which gives a star pyramid
+
+# %%
+# WHILE LOOP
+count = 4
+for r in range(count):
+    print(count)
+# %%
