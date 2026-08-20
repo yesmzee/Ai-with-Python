@@ -23,17 +23,15 @@ while count <= 14:
 
 count = 0
 while count < 10:
-    
+    count += 1
     if count % 2 == 0:
         continue  # skips even nmbrs
     print(count)
-    count += 1
-
+    
 count = 1
 while count < 11:
     if count == 8:
         break  # break at 8
     print(count)
     count += 1
-
-
+    
