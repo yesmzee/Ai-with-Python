@@ -25,3 +25,19 @@ def sum(a,b):
 answer = sum( 6 , 4 )
 print(answer)
 
+# squaring a number
+
+def sq(num):
+    d =num*num
+    return d
+number = int(input("enter your number to square :"))
+squaring = sq(number)
+print("the square of your number",number,"is",squaring)
+
+# default parameters 
+
+def greet(name="zeeshan"):
+    print("hello",name)
+
+greet() # hello zeeshan 
+greet("ali") # hello ali
