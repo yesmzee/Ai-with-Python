@@ -7,11 +7,12 @@ def greet():
 greet()  # calling a function
 
 
-# with parameter
+# WITH PARAMETER
 
 def call(name):
     print("Calling", name)
 
 call("Zeeshan") # Calling Zeeshan
 call("Hassan") # Calling Hassan
-# this above is reuseability 
+# this above is an example of reuseability 
+
