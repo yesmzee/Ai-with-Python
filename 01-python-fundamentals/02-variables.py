@@ -24,7 +24,7 @@ print( score + 5)
 
 name = "Zeeshan"
 last_name = "Ali"
-print("Hello, " + name + last_name +" ! ")
+print("Hello, " + name + " " + last_name + " ! ")
 
 # print function can also perform operations on variables
 
