@@ -1,8 +1,8 @@
-# OPERATORS IN PYTHON
-# There are two types of operators in Python:
+# OPERATORS IN PYTHON :
+# There are two types of operators in Python :
 
-# Unary  Operators ---> These operators operate on a single operand
-# Binary Operators ---> These operators operate on two operands
+# UNARY OPERATORS ---> These operators operate on a single operand
+# BINARY OPERATORS ---> These operators operate on two operands
 
 # 1. ARITHMETIC or MATHEMATICAL OPERATORS
 
