@@ -1,7 +1,8 @@
-# type-casting 
+# TYPE-CASTING 
+
 # there are two types of casting
 
-# 1. Implicit Casting ---> python auto converts from one data type to another
+# 1. IMPLICIT Casting ---> python automatically converts from one data type to another
 
 math = 51
 science = 50.55
@@ -10,7 +11,7 @@ print(total_marks) # 101.55 auto converts
 
 #-----------------------------------------------------------
 
-# 2. Explicit Casting ---> we have to do casting manually 
+# 2. EXPLICIT CASTING ---> we have to do casting manually 
 
 history = 55.3
 print(int(history)) # shows 55 integer type 
@@ -51,6 +52,7 @@ print(type(x))         # here the converted value is in x and now is <float>
 #-------------------------------------------------------------
 
 # INPUT FUNCTION ---> input()
+
 # used for taking input from user while program is running
 
 age = input("enter your age : ")
