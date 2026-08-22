@@ -1,4 +1,4 @@
-# CONDITIONAL STATEMENTS
+# CONDITIONAL STATEMENTS :
 # conditional statements are used to perform different decisions based on different conditions.
 
 temp = int(input("enter the temperature :"))
@@ -19,7 +19,7 @@ else:
 
 # IF-ELIF-ELSE --> used when there are multiple conditions or decisions
 
-# result calculation :
+# SIMPLE RESULT CALCULATION :
 
 math = float(input("enter math marks : "))
 print("math :", math)
@@ -55,7 +55,7 @@ else:
 
 # NESTED IF --> means an if statement inside another if statement
 
-# for checking subj name :
+# FOR CHECKING SUBJ NAME :
 
 subj = input("enter you subject name (bio, comp, chem) :")
 fsc_total_m = int(input("enter you total marks in fsc :"))
@@ -82,7 +82,7 @@ else:
 
 # COMBINED CONDITIONAL STATEMENTS --> used when you want to combine multiple conditions in a single if statement
 
-# age check for vote
+# AGE CHECK FOR VOTE :
 
 age = int(input("enter your age :"))
 region = input("enter your region : [baloch, sindh, punjab, kpk, gb, ajk ] :")
