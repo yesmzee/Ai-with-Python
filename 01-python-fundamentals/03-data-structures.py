@@ -1,5 +1,12 @@
+#DATA STRUCTURES :
 # there are different data structures in python it helps to store & organize data
-# the main data structures are: lists, tuples, sets, and dictionaries
+# the main data structures are:
+# LISTS
+# TUPLES
+# SETS
+# DICTIONARIES
+#--------------------------------------------------------------------------------
+
 
 # 1. LISTS []
 # Ordered, Mutable , Allows Duplicates
