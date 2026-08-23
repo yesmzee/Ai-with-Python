@@ -8,8 +8,12 @@
 for i in range(5):  # stop at 5 (5 not included)
     print(i)  # prints 0 1 2 3 4
 
+# in python range() is used to generate a sequence of numbers, which is used to control the loop.
+
 for i in range(1, 5):  # start at 1 & stop at 5
     print(i)  # prints 1 2 3 4
+
+# in python range() can take 3 arguments : start, stop, step
 
 for i in range(2, 15, 2):  # start at 2 , stop at 15 , move steps by 2
     print(i)  # prints 2 4 6 8 10 12 14
