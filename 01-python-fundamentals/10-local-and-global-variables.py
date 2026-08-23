@@ -9,4 +9,11 @@ def my_function():
 # Calling the function to see the local variable in action
 my_function()
 
+# GLOBAL VARIABLES :
+# global variables are defined outside of any function and can be accessed from anywhere in the code.
 
+global_variable = "I am a global variable"
+print(global_variable)
+
+# so , if we try to access the local variable outside of its function, it will result in an error.
+# print(local_variable)  # This will raise a NameError
