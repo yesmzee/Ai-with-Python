@@ -1,4 +1,6 @@
 # LOOPING DATA STRUCTURES
+# loops can be used to iterate over data structures
+
 
 # STRINGS
 
@@ -24,6 +26,7 @@ for c in textt:
     reverse = (
         c + reverse
     )  # first reverse = "" + "Z" = "Z" , second reverse = "e" + "Z" = "eZ"..........
+    
 print(reverse)  # nahseeZ
 
 # DICTIONARY
