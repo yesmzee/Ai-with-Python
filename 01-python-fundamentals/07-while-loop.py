@@ -4,9 +4,11 @@ i = 2  # start from 2
 while i <= 10:  # checks the condition everytime until its false
     print(i)
     i += 1
+
 # without increament the loop will be infinite
 
 # in for loop range() controls the increaments & start, stop, step
+
 # in while loop we have to do it on our own
 
 # WHILE LOOP WITH CONDITIONAL STMTS :
@@ -26,12 +28,10 @@ while count < 10:
     count += 1
     if count % 2 == 0:
         continue  # skips even nmbrs
-    print(count)
-    
+    print(count)    
 count = 1
 while count < 11:
     if count == 8:
         break  # break at 8
     print(count)
     count += 1
-    
