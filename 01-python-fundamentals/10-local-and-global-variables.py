@@ -3,7 +3,13 @@
 
 # # LOCAL  VARIABLES :
 # local variables are defined inside a function and can only be accessed within that function.
+# gets deleted when function stops running.
 
+def greet():
+    myName= "Zeeshan"
+    print(myName)
+
+greet() # calling function for local variable
 
 def my_function():
     local_variable = "I am a local variable"
