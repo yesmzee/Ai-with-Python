@@ -1,4 +1,7 @@
-# LOCAL  VARIABLES :
+# VARIABLES SCOPE IN PYTHON :
+# means that where we can use a variable in our code.
+
+# # LOCAL  VARIABLES :
 # local variables are defined inside a function and can only be accessed within that function.
 
 
