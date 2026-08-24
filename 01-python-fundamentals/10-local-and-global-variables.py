@@ -15,14 +15,22 @@ def my_function():
     local_variable = "I am a local variable"
     print(local_variable)
 
-# Calling the function to see the local variable in action
-my_function()
+my_function() # --> Calling the function to see the local variable in action
+
 
 # GLOBAL VARIABLES :
-# global variables are defined outside of any function and can be accessed from anywhere in the code.
+# global variables are defined outside of any function and can be accessed from anywhere in the code including functions
 
-global_variable = "I am a global variable"
-print(global_variable)
+myName = "Zeeshan"
+def greet():
+    print(myName)
 
-# so , if we try to access the local variable outside of its function, it will result in an error.
-# print(local_variable)  # This will raise a NameError
+greet()
+print(myName)
+
+x = 16
+
+def show():
+    print(x+1) # updates x by adding 1
+
+show() # 17
