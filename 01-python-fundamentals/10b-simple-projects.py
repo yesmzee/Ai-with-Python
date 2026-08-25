@@ -2,6 +2,7 @@
 
 # NUMBER GUESSING GAME :
 
+
 def guessing_game():
     number = 7
     attempts = 0
@@ -21,3 +22,28 @@ def guessing_game():
 
 guessing_game()
 
+
+# SIMPLE QUIZ GAME :
+
+def quiz():
+    score = 0
+
+    questions = ["What is 5 + 5?", "What is 10 - 3?", "What is 4 * 2?"]
+
+    answers = ["10", "7", "8"]
+
+    for i in range(3):
+        print(questions[i])
+
+        answer = input("Your answer: ")
+
+        if answer == answers[i]:
+            print("Correct!")
+            score += 1
+        else:
+            print("Wrong!")
+
+    print("Your score is:", score)
+
+
+quiz()
