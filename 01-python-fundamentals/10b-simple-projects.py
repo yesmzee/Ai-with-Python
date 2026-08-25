@@ -85,3 +85,62 @@ def calculate_bill():
 
 
 calculate_bill()
+
+# SIMPLE ATM :
+
+balance = 10000
+
+
+def show_balance():
+    print("Your balance is:", balance)
+
+
+def deposit():
+    amount = int(input("Enter amount to deposit: "))
+
+    global balance
+
+    balance = balance + amount
+
+    print("Money deposited.")
+    print("New balance:", balance)
+
+
+def withdraw():
+    amount = int(input("Enter amount to withdraw: "))
+
+    global balance
+
+    if amount <= balance:
+        balance = balance - amount
+        print("Money withdrawn.")
+        print("Remaining balance:", balance)
+    else:
+        print("Insufficient balance.")
+
+
+while True:
+
+    print("\nATM")
+    print("1. Check Balance")
+    print("2. Deposit")
+    print("3. Withdraw")
+    print("4. Exit")
+
+    choice = input("Enter your choice: ")
+
+    if choice == "1":
+        show_balance()
+
+    elif choice == "2":
+        deposit()
+
+    elif choice == "3":
+        withdraw()
+
+    elif choice == "4":
+        print("Goodbye!")
+        break
+
+    else:
+        print("Invalid choice.")
