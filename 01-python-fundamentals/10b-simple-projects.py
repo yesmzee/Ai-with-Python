@@ -42,8 +42,46 @@ def quiz():
             score += 1
         else:
             print("Wrong!")
-
     print("Your score is:", score)
-
-
 quiz()
+
+
+
+# BILLING PROGRAM :
+
+def calculate_bill():
+    items = []
+    prices = []
+
+    while True:
+        item = input("Enter item name or type 'done': ")
+
+        if item == "done":
+            break
+
+        price = int(input("Enter price: "))
+
+        items.append(item)
+        prices.append(price)
+
+    total = 0
+
+    for price in prices:
+        total = total + price
+
+    print("\nItems:")
+
+    for item in items:
+        print(item)
+
+    print("Total:", total)
+
+    if total >= 1000:
+        discount = total * 10 / 100
+        total = total - discount
+        print("10% discount applied!")
+
+    print("Final bill:", total)
+
+
+calculate_bill()
