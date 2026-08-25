@@ -43,3 +43,10 @@ for row in range(1, 5):
     for column in range(row):
         print("*", end=" ")
     print()
+
+# DECREASING STARS :
+
+for row in range(4, 0, -1):
+    for column in range(row):
+        print("*", end=" ")
+    print()
