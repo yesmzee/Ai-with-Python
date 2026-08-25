@@ -1,7 +1,7 @@
 # simple programs of topics from 01-intro.py to 10-local-and-global-variables.py
 
 # NUMBER GUESSING GAME :
-
+# ( Conditional Statements, While Loops, Functions )
 
 def guessing_game():
     number = 7
@@ -24,6 +24,7 @@ guessing_game()
 
 
 # SIMPLE QUIZ GAME :
+# ( Data Structures, Conditional Statements, For Loops, Functions )
 
 def quiz():
     score = 0
@@ -48,6 +49,7 @@ quiz()
 
 
 # BILLING PROGRAM :
+# ( Data Structures, Conditional Statements, For Loops, While Loops, Functions )
 
 def calculate_bill():
     items = []
@@ -87,6 +89,7 @@ def calculate_bill():
 calculate_bill()
 
 # SIMPLE ATM :
+# ( Conditional Statements, While Loops, Functions )
 
 balance = 10000
 
@@ -147,6 +150,7 @@ while True:
 
 
 # MULTIPLICATION PROGRAM (any table):
+# ( For Loops, Nested Loops )
 
 for number in range(1, 6):
 
