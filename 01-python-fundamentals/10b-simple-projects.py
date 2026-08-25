@@ -144,3 +144,15 @@ while True:
 
     else:
         print("Invalid choice.")
+
+
+# MULTIPLICATION PROGRAM (any table):
+
+for number in range(1, 6):
+
+    print("Table of", number)
+
+    for i in range(1, 11):
+        print(number, "*", i, "=", number * i)
+
+    print()
