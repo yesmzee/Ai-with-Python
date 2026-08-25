@@ -4,6 +4,7 @@
 
 for a in range(2):
     print("outer loop")
+
     for z in range(3):
         print("inner loop")
 
@@ -13,11 +14,14 @@ i = 4
 rows = 4
 cols = 4
 matrix = []
+
 for r in range(rows):
     row = []
+
     for c in range(cols):
         row.append(0)
     matrix.append(row)
+
 for row in matrix:
     print(" ".join(map(str, row)))
 
@@ -33,3 +37,9 @@ for i in range(2, 6):
     for j in range(1, 11):
         print(i, "x", j, "=", i * j)
 
+# INCREASING STARS :
+
+for row in range(1, 5):
+    for column in range(row):
+        print("*", end=" ")
+    print()
