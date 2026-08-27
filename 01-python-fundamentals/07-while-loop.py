@@ -35,3 +35,12 @@ while count < 11:
         break  # break at 8
     print(count)
     count += 1
+    
+# COUNT DOWN PROGRAM :
+count = 5
+
+while count > 0:
+    print(count)
+    count -= 1
+
+print("Blast off!")
